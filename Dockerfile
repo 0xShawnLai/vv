@@ -1,3 +1,3 @@
 FROM alpine:3.16
-COPY ts /bin/ts
+COPY --chmod=755 ts /bin/ts
 CMD [ "/bin/ts" ]
